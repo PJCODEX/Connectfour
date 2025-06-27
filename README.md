@@ -40,5 +40,5 @@ cd connect-four-game
 
 ---
 
-## 🤝 Contributing <br>
-Contributions are welcome! If you find a bug or want to add a feature, just open an issue or pull request. </br>
+## 🤝 Contributing 
+Contributions are welcome! If you find a bug or want to add a feature, just open an issue or pull request 
