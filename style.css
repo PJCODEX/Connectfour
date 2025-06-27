@@ -2,10 +2,8 @@ body {
   background: #f4f4f4;
   font-family: 'Segoe UI', sans-serif;
   padding-top: 20px;
-}
-
-h1, h2, h3 {
-  margin-bottom: 10px;
+  color: #111;
+  transition: background 0.4s, color 0.4s;
 }
 
 .board {
@@ -47,4 +45,75 @@ h1, h2, h3 {
 @keyframes glow {
   from { transform: scale(1); }
   to { transform: scale(1.1); }
+}
+
+/* 🌙 Dark mode styles */
+body.dark-mode {
+  background: #121212;
+  color: #e0e0e0;
+}
+
+body.dark-mode .board button {
+  border-color: #ccc;
+}
+
+body.dark-mode .hover-chip {
+  border-color: #999;
+}
+
+/* 🌙 Toggle Switch */
+.dark-toggle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 30px;
+  margin-right: 10px;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  background-color: #ccc;
+  top: 0; left: 0;
+  right: 0; bottom: 0;
+  transition: 0.4s;
+  border-radius: 30px;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 22px;
+  width: 22px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  transition: 0.4s;
+  border-radius: 50%;
+}
+
+input:checked + .slider {
+  background-color: #66bb6a;
+}
+
+input:checked + .slider:before {
+  transform: translateX(30px);
+}
+
+.dark-label {
+  font-weight: bold;
+  font-size: 14px;
 }
