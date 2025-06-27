@@ -8,9 +8,19 @@
 </head>
 <body>
   <div class="container text-center">
-    <h1>Welcome to Connect Four!</h1>
+    <h1>Welcome to Connect Four! 😎</h1>
     <h2>The object of this game is to connect four of your chips in a row!</h2>
-    <h3 id="playerTurn">Player 1's Turn (Blue)</h3>
+    
+    <!-- 🌙 Dark Mode Toggle -->
+    <div class="dark-toggle">
+      <label class="switch">
+        <input type="checkbox" id="darkModeToggle">
+        <span class="slider"></span>
+      </label>
+      <span class="dark-label">Dark Mode</span>
+    </div>
+
+    <h3 id="playerTurn">Player 1's Turn 🔵</h3>
 
     <!-- Hover Indicator Row -->
     <div class="hover-row">
@@ -26,30 +36,17 @@
     <!-- Game Board -->
     <table class="board">
       <tbody>
-        <!-- Generate 6 rows and 7 columns -->
-        <!-- You can use JS to generate this too, but keeping it static for now -->
-        <tr>
-          <td><button></button></td><td><button></button></td><td><button></button></td><td><button></button></td><td><button></button></td><td><button></button></td><td><button></button></td>
-        </tr>
-        <tr>
-          <td><button></button></td><td><button></button></td><td><button></button></td><td><button></button></td><td><button></button></td><td><button></button></td><td><button></button></td>
-        </tr>
-        <tr>
-          <td><button></button></td><td><button></button></td><td><button></button></td><td><button></button></td><td><button></button></td><td><button></button></td><td><button></button></td>
-        </tr>
-        <tr>
-          <td><button></button></td><td><button></button></td><td><button></button></td><td><button></button></td><td><button></button></td><td><button></button></td><td><button></button></td>
-        </tr>
-        <tr>
-          <td><button></button></td><td><button></button></td><td><button></button></td><td><button></button></td><td><button></button></td><td><button></button></td><td><button></button></td>
-        </tr>
-        <tr>
-          <td><button></button></td><td><button></button></td><td><button></button></td><td><button></button></td><td><button></button></td><td><button></button></td><td><button></button></td>
-        </tr>
+        <!-- 6 rows × 7 columns -->
+        <!-- (same structure as before) -->
+        <tr><td><button></button></td><td><button></button></td><td><button></button></td><td><button></button></td><td><button></button></td><td><button></button></td><td><button></button></td></tr>
+        <tr><td><button></button></td><td><button></button></td><td><button></button></td><td><button></button></td><td><button></button></td><td><button></button></td><td><button></button></td></tr>
+        <tr><td><button></button></td><td><button></button></td><td><button></button></td><td><button></button></td><td><button></button></td><td><button></button></td><td><button></button></td></tr>
+        <tr><td><button></button></td><td><button></button></td><td><button></button></td><td><button></button></td><td><button></button></td><td><button></button></td><td><button></button></td></tr>
+        <tr><td><button></button></td><td><button></button></td><td><button></button></td><td><button></button></td><td><button></button></td><td><button></button></td><td><button></button></td></tr>
+        <tr><td><button></button></td><td><button></button></td><td><button></button></td><td><button></button></td><td><button></button></td><td><button></button></td><td><button></button></td></tr>
       </tbody>
     </table>
 
-    <!-- Reset Button -->
     <button id="resetBtn" class="btn btn-danger">Restart Game</button>
   </div>
 
