@@ -1,30 +1,39 @@
-# 🎮 Connect Four
+# 🎮 Connect Four Web Game
 
-Play the classic **Connect Four** game in your browser!
-Try it here 👉 [connectfour-rose.vercel.app](https://connectfour-rose.vercel.app/)
+A dynamic, browser-based Connect Four game built with **HTML**, **CSS**, and **JavaScript (jQuery)**
+— now with 🌓 Dark Mode, 🏆 win animations, emoji support 😄, and enhanced UI!
 
-## 🧩 About the Project
+Vercel Link: https://connectfour-rose.vercel.app/
+---
 
-This is a web-based implementation of the Connect Four game built with **React** and deployed on **Vercel**. It's simple, responsive, and designed for fun 2-player gameplay.
+## ✨ Features
 
-## 🚀 Features
-
-* 🎯 Two-player mode (Player 1 vs Player 2)
-* 🟡 Intuitive game board with interactive moves
-* ✅ Win detection in all directions (horizontal, vertical, diagonal)
-* 🔁 Game reset functionality
-* 📱 Responsive design for desktop and mobile
-
-## 📦 Tech Stack
-
-* **Frontend**: React, CSS
-* **Deployment**: Vercel
-
-## 📌 Future Improvements
-
-* Add CPU opponent (easy/medium/hard)
-* Animate win patterns
-* Add game sounds
-* Save score history
+- 🎮 Classic 2-player Connect Four gameplay
+- 😄 Player name input with emoji support
+- 🌗 Dark Mode toggle with smooth styling
+- 🔄 Reset button to restart anytime
+- 🧲 Hover indicators for chip drop position
+- 🏆 Win detection: horizontal, vertical, diagonal
+- ✨ Animated glow effect on winning chips
+- 💡 Clean and responsive layout with Bootstrap
 
 ---
+
+## 🕹️ How to Play
+
+1. Upon opening the game, both players will be prompted to enter their names (you can add emojis too, like `👧🔴` or `🧑‍💻🔵`).
+2. The board has 7 columns × 6 rows.
+3. Players take turns clicking on a column to "drop" a colored chip into that column.
+4. The chip falls to the lowest empty row available in that column.
+5. The first player to connect **4 chips in a row** (horizontally, vertically, or diagonally) wins the game. 🎉
+6. If the board is full and no player has won, it's a draw, manual detection
+7. Click the **Restart Game** button to start a new match.
+
+---
+
+## 🚀 Getting Started
+
+### 1. Clone the repo
+```bash
+git clone https://github.com/PJCODEX/connect-four-game.git
+cd connect-four-game
