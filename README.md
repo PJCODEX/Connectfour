@@ -30,8 +30,6 @@ Vercel Link: https://connectfour-rose.vercel.app/
 7. Click the **Restart Game** button to start a new match.
 
 ---
-🤝 Contributing
-Contributions are welcome! If you find a bug or want to add a feature, just open an issue or pull request.
 
 ## 🚀 Getting Started
 
@@ -39,3 +37,8 @@ Contributions are welcome! If you find a bug or want to add a feature, just open
 ```bash
 git clone https://github.com/PJCODEX/connect-four-game.git
 cd connect-four-game
+
+---
+
+## 🤝 Contributing <br>
+Contributions are welcome! If you find a bug or want to add a feature, just open an issue or pull request. </br>
