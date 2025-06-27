@@ -30,6 +30,8 @@ Vercel Link: https://connectfour-rose.vercel.app/
 7. Click the **Restart Game** button to start a new match.
 
 ---
+🤝 Contributing
+Contributions are welcome! If you find a bug or want to add a feature, just open an issue or pull request.
 
 ## 🚀 Getting Started
 
