@@ -33,4 +33,25 @@ A dynamic, browser-based Connect Four game built with **HTML**, **CSS**, and **J
 
 ---
 
+🤝 Contribution Guide
+Want to suggest a new feature or fix a bug?
 
+Fork the repo on GitHub: Visit: hhttps://github.com/PJCODEX/Connectfour.git and click the "Fork" button (top-right)
+
+Clone your fork git clone https://github.com/your-username/Connectfour.git
+cd Connectfour
+
+Create a new feature or bugfix branch git checkout -b feature/your-feature-name
+
+Make your changes (Open and edit files as needed using your code editor)
+
+Stage and commit your changes git add . git commit -m "Add: Your short and meaningful description"
+
+Push your changes to your fork git push origin feature/your-feature-name
+
+Open a Pull Request
+
+Go to your forked repo on GitHub
+Click "Compare & pull request"
+Add a clear title and description
+Submit the PR to the original repo (PJCODEX/Connectfour)
