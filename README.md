@@ -38,16 +38,16 @@ Want to suggest a new feature or fix a bug?
 
 Fork the repo on GitHub: Visit: hhttps://github.com/PJCODEX/Connectfour.git and click the "Fork" button (top-right)
 
-Clone your fork git clone https://github.com/your-username/Connectfour.git
+Clone your fork **git clone https://github.com/your-username/Connectfour.git**
 cd Connectfour
 
-Create a new feature or bugfix branch git checkout -b feature/your-feature-name
+Create a new feature or bug fix branch **git checkout -b feature/your-feature-name**
 
 Make your changes (Open and edit files as needed using your code editor)
 
 Stage and commit your changes git add . git commit -m "Add: Your short and meaningful description"
 
-Push your changes to your fork git push origin feature/your-feature-name
+Push your changes to your fork **git push origin feature/your-feature-name**
 
 Open a Pull Request
 
