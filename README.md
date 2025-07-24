@@ -3,8 +3,10 @@
 A dynamic, browser-based Connect Four game built with **HTML**, **CSS**, and **JavaScript (jQuery)**
 — now with 🌓 Dark Mode, 🏆 win animations, emoji support 😄, and enhanced UI!
 
-Vercel Link: https://connectfour-rose.vercel.app/
 ---
+
+**Vercel Link**: https://connectfour-rose.vercel.app/
+
 
 ## ✨ Features
 
@@ -31,14 +33,4 @@ Vercel Link: https://connectfour-rose.vercel.app/
 
 ---
 
-## 🚀 Getting Started
 
-### 1. Clone the repo
-```bash
-git clone https://github.com/PJCODEX/connect-four-game.git
-cd connect-four-game
-
----
-
-## 🤝 Contributing 
-Contributions are welcome! If you find a bug or want to add a feature, just open an issue or pull request 
