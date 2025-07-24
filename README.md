@@ -36,7 +36,7 @@ A dynamic, browser-based Connect Four game built with **HTML**, **CSS**, and **J
 🤝 Contribution Guide
 Want to suggest a new feature or fix a bug?
 
-Fork the repo on GitHub:Visit: hhttps://github.com/PJCODEX/Connectfour.git and click the "Fork" button (top-right)
+Fork the repo on GitHub: Visit:https://github.com/PJCODEX/Connectfour.git and click the "Fork" button (top-right)
 
 Clone your fork **git clone https://github.com/your-username/Connectfour.git**
 cd Connectfour
