@@ -55,3 +55,7 @@ Go to your forked repo on GitHub
 Click "Compare & pull request"
 Add a clear title and description
 Submit the PR to the original repo (PJCODEX/Connectfour)
+
+## 📄 License
+
+This project is licensed under the [MIT License](LICENSE).
